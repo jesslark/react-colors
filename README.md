@@ -1,6 +1,6 @@
-## My Starter Project
+## React Colors
 
-A project to learn how to set up React projects. Can be used in the future as a starting point. Uses babel and webpack.
+A project to play with a React project. 
 
 ## Usage
 
