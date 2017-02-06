@@ -1,0 +1,45 @@
+.container {
+  margin: 150px auto;
+  width: 800px;
+}
+
+.thing {
+  height: 150px;
+  width: 150px;
+  margin: -40px;
+  background: silver;
+  transition: background 3s;
+  text-align: center;
+  display: inline-block;
+  border-radius: 200px;
+}
+
+.mod1, 
+.start1 {
+  background: rgba(231, 8, 8, 0.7);
+}
+
+.mod2, 
+.start2 {
+  background: rgba(247, 131, 48, 0.7);
+}
+
+.mod3, 
+.start3 {
+  background: rgba(246, 200, 18, 0.7);
+}
+
+.mod4, 
+.start4 {
+  background: rgba(121, 206, 17, 0.7);
+}
+
+.mod5, 
+.start5 {
+  background: rgba(17, 121, 206, 0.7);
+}
+
+.mod6, 
+.start6 {
+  background: rgba(102, 17, 206, 0.7);
+}

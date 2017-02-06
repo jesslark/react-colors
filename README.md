@@ -9,6 +9,8 @@ Start the dev server:
 npm start 
 ```
 
+View at: localhost:3000
+
 ## Setup
 
 ```
