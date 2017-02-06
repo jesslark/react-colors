@@ -9,16 +9,19 @@ class Thing extends React.Component {
     }
 
     incrementColor() {
-        this.state.count >= 6 ? this.state.count=0 : null;
-        this.setState({ count: this.state.count + 1 });
+        var myNum = this.state.count;
+        myNum++;
+        myNum>5 ? myNum=0 : myNum;
+        this.setState({ count: myNum });
     }
 
     render() {
-
+        var num = this.props.num + this.state.count;
+        num>6 ? num=1 : num;
         return (
-                <div onMouseOver={ this.incrementColor.bind(this) } 
-                    className={ "thing " + "mod"+this.props.num } >
-                </div>
+            <div onMouseOver={ this.incrementColor.bind(this) } 
+                className={ "thing " + "mod" +  num } >
+            </div>
         );
     }
 }

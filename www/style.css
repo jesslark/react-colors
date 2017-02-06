@@ -8,38 +8,109 @@
   width: 150px;
   margin: -40px;
   background: silver;
-  transition: background 3s;
+  transition: 2s;
   text-align: center;
   display: inline-block;
   border-radius: 200px;
 }
 
-.mod1, 
-.start1 {
+/* shapechange */
+.mod1 {
+  border-radius: 150px;
+}
+
+.mod2 {
+  border-radius: 0px 75px 0px 75px;
+}
+
+.mod3 {
+  border-radius: 75px 0px 75px 0px;
+}
+
+.mod4 {
+  border-radius: 75px 75px 0px 0px;
+}
+
+.mod5 {
+  border-radius: 0px 0px 75px 75px;
+}
+
+.mod6 {
+  border-radius: 0px;
+}
+
+/* warm 
+.mod1 {
+  background: rgba(252, 79, 157, 0.7);
+}
+
+.mod2 {
+  background: rgba(191, 63, 127, 0.7);
+}
+
+.mod3 {
+  background: rgba(191, 63, 63, 0.7);
+}
+
+.mod4 {
+  background: rgba(250, 137, 25, 0.7);
+}
+
+.mod5 {
+  background: rgba(250, 250, 0, 0.7);
+}
+
+.mod6 {
+  background: rgba(250, 212, 25, 0.7);
+}
+*/
+
+/* blue 
+.mod1 {
+  background: rgba(3, 191, 191, 0.7);
+}
+
+.mod2 {
+  background: rgba(3, 127, 191, 0.7);
+}
+
+.mod3 {
+  background: rgba(4, 72, 118, 0.7);
+}
+
+.mod4 {
+  background: rgba(4, 91, 179, 0.7);
+}
+
+.mod5 {
+  background: rgba(7, 121, 236, 0.7);
+}
+
+.mod6 {
+  background: rgba(1, 92, 76, 0.7);
+}
+*/
+/* rainbow */
+.mod1 {
   background: rgba(231, 8, 8, 0.7);
 }
 
-.mod2, 
-.start2 {
+.mod2 {
   background: rgba(247, 131, 48, 0.7);
 }
 
-.mod3, 
-.start3 {
+.mod3 {
   background: rgba(246, 200, 18, 0.7);
 }
 
-.mod4, 
-.start4 {
+.mod4 {
   background: rgba(121, 206, 17, 0.7);
 }
 
-.mod5, 
-.start5 {
+.mod5 {
   background: rgba(17, 121, 206, 0.7);
 }
 
-.mod6, 
-.start6 {
+.mod6 {
   background: rgba(102, 17, 206, 0.7);
 }
